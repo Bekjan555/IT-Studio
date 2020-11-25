@@ -1,0 +1,21 @@
+.header {
+    background-color:$color-black;
+    &__row {
+        box-sizing: border-box;
+        justify-content: flex-end;
+    }
+}
+
+.nav {
+    &__item {
+        padding: 20px;
+        transition: 0.3s;
+        &:hover {
+            border-bottom: 2px solid $color-white;
+            transition: 0.3s;
+        }
+    }
+    &__link {
+        @include font(16px, 500, $color-white);
+    }
+}
