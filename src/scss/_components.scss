@@ -8,3 +8,12 @@
 .text-center {
 	text-align: center;
 }
+.btn {
+	padding: 15px 35px;
+	@include font(16px, 500, $color-white);
+	border-radius: 30px;
+	background-color: $color-accent;
+}
+.title {
+	@include font(36px, 700, $color-black);
+}

@@ -1,0 +1,15 @@
+.hero {
+    background: url(../../assets/hero-bg.png) center no-repeat;
+    background-size: cover;
+    height: 100vh;
+    &__content {
+        @include flex-center;
+        flex-direction: column;
+    }
+    &__title {
+        @include font(48px, 800, $color-white);
+    }
+    &__subtitle {
+        @include font(16px, 500, $color-white);
+    }
+}
