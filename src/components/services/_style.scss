@@ -3,19 +3,33 @@
     &__content {
         padding-top: 110px;
     }
-    &__subtitle {
-        padding: 12px 12px;
-        box-sizing: border-box;
+    &__text {
+        max-width: 740px;
+        margin: auto;
     }
     &__description {
-        max-width: 730px;
-    }
-    &__columns{
-        flex-direction: column;
-        padding: 0 5px;
-        box-sizing: border-box;
+        padding: 50px 0 70px 0;
+        line-height: 25px;
+        color: $color-gray;
     }
     &__btn {
         margin-top: 55px;
+    }
+}
+.column {
+    &__text {
+        flex-direction: column;
+    justify-content: flex-end;
+    max-width: 190px;
+    padding-top: 85px;
+    box-sizing: border-box;
+    }
+    &__title {
+        margin-bottom: 12px;
+        @include font(18, 600, $color-black)
+    }
+    &__description {
+        @include font(14px, 400, $color-gray);
+        line-height:22px;
     }
 }
