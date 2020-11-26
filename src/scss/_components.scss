@@ -9,17 +9,24 @@
 	text-align: center;
 }
 .btn {
-	padding: 15px 35px;
+	padding: 10px 35px;
 	@include font(16px, 500, $color-white);
 	border-radius: 30px;
 	background-color: $color-accent;
 }
 .title {
 	@include font(36px, 700, $color-black);
+	line-height: 53px;
 }
 
 .description {
-	@include font (16px, 400, $color-gray)
+	@include font (16px, 400, $color-gray);
+	line-height: 25px;
+}
+
+.link {
+	@include font(16px, 500, $color-accent);
+	text-decoration: underline;
 }
 
 
