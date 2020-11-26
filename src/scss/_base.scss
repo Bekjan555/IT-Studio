@@ -6,6 +6,7 @@
 body {
 	margin: 0;
 	font-family: "Montserrat", sans-serif;
+	background-color: $color-gray;
 }
 
 h1,
@@ -16,6 +17,7 @@ h5,
 h6,
 p {
 	margin: 0;
+	display: inline-block;
 }
 
 ul {

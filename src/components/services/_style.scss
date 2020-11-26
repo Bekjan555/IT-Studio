@@ -1,0 +1,21 @@
+.services {
+    background-color: $color-white;
+    &__content {
+        padding-top: 110px;
+    }
+    &__subtitle {
+        padding: 12px 12px;
+        box-sizing: border-box;
+    }
+    &__description {
+        max-width: 730px;
+    }
+    &__columns{
+        flex-direction: column;
+        padding: 0 5px;
+        box-sizing: border-box;
+    }
+    &__btn {
+        margin-top: 55px;
+    }
+}

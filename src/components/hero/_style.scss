@@ -2,12 +2,16 @@
     background: url(../../assets/hero-bg.png) center no-repeat;
     background-size: cover;
     height: 100vh;
+    position: relative;
     &__content {
         @include flex-center;
         flex-direction: column;
+        padding-top: 220px;
+        box-sizing: border-box;
     }
     &__title {
         @include font(48px, 800, $color-white);
+        max-width: 830px;
     }
     &__subtitle {
         @include font(16px, 500, $color-white);

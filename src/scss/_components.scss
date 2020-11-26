@@ -17,3 +17,7 @@
 .title {
 	@include font(36px, 700, $color-black);
 }
+
+.description {
+	@include font (16px, 400, $color-gray)
+}
