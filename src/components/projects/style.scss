@@ -1,0 +1,19 @@
+.projects {
+    position: relative;
+    &__top {
+        flex-direction: column;
+        @include flex-center();
+    }
+    &__description {
+        max-width: 670px;
+    }
+    &__row {
+        padding: 70px 0 50px 0;
+        box-sizing: border-box;
+    }
+    &__btn {
+        left: 50%;
+        position: absolute;
+        transform: translateX(-50%);
+    }
+}

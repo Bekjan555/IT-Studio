@@ -1,6 +1,8 @@
 .specialization {
-    background: linear-gradient(90deg, #504DC2 20.44%, #5F12D0 80.91%), #C4C4C4;
-    height: 490px;
+    &__wrapper {
+        background: linear-gradient(90deg, #504DC2 20.44%, #5F12D0 80.91%), #C4C4C4;
+        min-height: 490px;
+    }
     &__content {
         padding-bottom: 85px;
     }

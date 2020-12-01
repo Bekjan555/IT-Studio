@@ -4,6 +4,7 @@ import Hero from './components/hero';
 import Services from './components/services';
 import Standards from './components/standards';
 import Specialization from './components/specialization';
+import Projects from './components/projects';
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
       <Services/>
       <Standards/>
       <Specialization/>
+      <Projects/>
     </div>
   );
 }
