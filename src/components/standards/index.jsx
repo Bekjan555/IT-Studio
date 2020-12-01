@@ -4,9 +4,9 @@ import img2 from "../../assets/standardsImg-2.svg";
 
 const Standards = () => {
   return (
-    <section className="standards flex">
+    <section className="standards">
       <div className="container">
-        <div className="standards__main row flex">
+        <div className="standards__main row">
           <div className="col-5">
             <h2 className="standards__title title">
               Высокие стандарты разработки

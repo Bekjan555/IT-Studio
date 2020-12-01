@@ -10,7 +10,6 @@
     }
     &__description {
         padding: 50px 0 70px 0;
-        line-height: 25px;
         color: $color-gray;
     }
     &__btn {
@@ -20,17 +19,16 @@
 .column {
     &__text {
         flex-direction: column;
-    justify-content: flex-end;
-    max-width: 190px;
-    padding-top: 85px;
-    box-sizing: border-box;
+        justify-content: flex-end;
+        max-width: 190px;
+        padding-top: 85px;
+        box-sizing: border-box;
     }
     &__title {
         margin-bottom: 12px;
-        @include font(18, 600, $color-black)
+        @include font(18px, 600, $color-black);
     }
     &__description {
         @include font(14px, 400, $color-gray);
-        line-height:22px;
     }
 }

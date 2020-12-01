@@ -16,12 +16,12 @@
 }
 .title {
 	@include font(36px, 700, $color-black);
-	line-height: 53px;
 }
 
 .description {
 	@include font (16px, 400, $color-gray);
 	line-height: 25px;
+	margin: 0;
 }
 
 .link {

@@ -1,4 +1,28 @@
 .specialization {
-    background-color: $color-black;
-    
+    background: linear-gradient(90deg, #504DC2 20.44%, #5F12D0 80.91%), #C4C4C4;
+    height: 490px;
+    &__content {
+        padding-bottom: 85px;
+    }
+    &__top {
+        justify-content: space-between;
+        align-items: center;
+        padding: 100px 0 70px 0 ;
+    }
+    &__title {
+        color: $color-white;
+        max-width:  470px;
+        margin: 0;
+    }
+    &__link {
+        margin-top: 30px;
+    }
+    &__row {
+        justify-content: space-between;
+        border-bottom: 1px solid $color-lightGray;
+        padding-bottom: 85px;
+    }
+    &__column {
+        max-width: 350px;
+    }
 }

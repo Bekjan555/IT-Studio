@@ -17,7 +17,7 @@ const Services = () => {
             </p>
           </div>
           <div className="services__row row">
-            <div className="services__columns column flex col-4">
+            <div className="services__columns row column flex col-4">
               <img src={servicesImg} alt="" />
               <div className="column__text flex">
                 <h3 className="column__title">Создание сайтов</h3>
@@ -27,7 +27,7 @@ const Services = () => {
                 </p>
               </div>
             </div>
-            <div className="services__columns column flex col-4">
+            <div className="services__columns row column flex col-4">
               <img src={servicesImg} alt="" />
               <div className="column__text flex">
                 <h3 className="column__title">Создание сайтов</h3>
@@ -37,7 +37,7 @@ const Services = () => {
                 </p>
               </div>
             </div>
-            <div className="services__columns column flex col-4">
+            <div className="services__columns row column flex col-4">
               <img src={servicesImg} alt="" />
               <div className="column__text flex">
                 <h3 className="column__title">Создание сайтов</h3>
