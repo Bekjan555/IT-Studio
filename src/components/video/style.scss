@@ -1,0 +1,23 @@
+.video {
+    background: url(../../assets/video-bg.png) center no-repeat;
+    background-size: cover;
+    height: 100vh;
+    margin-top: 130px;
+    position: relative;
+    &__top {
+        flex-direction: column;
+        @include flex-center;
+        padding-top: 60px;
+    }
+    &__title, &__description {
+        color: $color-white;
+    }
+    &__play {
+        position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+    padding-bottom: 85px;
+    border-bottom: 1px solid $color-lightGray;
+    }
+}

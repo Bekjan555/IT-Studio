@@ -5,6 +5,7 @@ import Services from './components/services';
 import Standards from './components/standards';
 import Specialization from './components/specialization';
 import Projects from './components/projects';
+import Video from './components/video';
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
       <Standards/>
       <Specialization/>
       <Projects/>
+      <Video/>
     </div>
   );
 }
