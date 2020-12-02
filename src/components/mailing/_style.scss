@@ -1,0 +1,30 @@
+.mailing {
+    margin-top: 300px;
+    &__mail {
+        width: 300px;
+        height: 45px;
+        outline: none;
+        border: 1px solid #F2F2F2;
+        padding-left: 33px;
+        box-sizing: border-box;
+    }
+    &__btn {
+        border-top-right-radius: 30px;
+        border-bottom-right-radius: 30px;
+        box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
+        // padding: ;
+    }
+    &__form {
+        padding: 30px 35px;
+        box-sizing: border-box;
+    }
+    &__mail {
+        border-top-left-radius: 30px;
+        border-bottom-left-radius: 30px;
+        box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
+        height: 40px;
+        &::placeholder {
+            @include font(13px, 400, $color-gray)
+        }
+    }
+}

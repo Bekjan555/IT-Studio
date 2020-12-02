@@ -6,6 +6,7 @@ import Standards from './components/standards';
 import Specialization from './components/specialization';
 import Projects from './components/projects';
 import Video from './components/video';
+import Mailing from './components/mailing';
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
       <Specialization/>
       <Projects/>
       <Video/>
+      <Mailing/>
     </div>
   );
 }

@@ -17,7 +17,7 @@ const Specialization = () => {
               <div className="specialization__column">
                 <img src={specializationImg} alt="" />
                 <h3 className="specialization__subtitle">
-                  <span>01.</span>Исследование и упаковка
+                  <span className="specialization__numbers">01.</span>Исследование и упаковка
                 </h3>
                 <p className="specialization_description description">
                   Lorem Ipsum - это текст-"рыба", часто используемый в печати и
@@ -31,7 +31,7 @@ const Specialization = () => {
               <div className="specialization__column">
                 <img src={specializationImg} alt="" />
                 <h3 className="specialization__subtitle">
-                  <span>01.</span>Исследование и упаковка
+                  <span className="specialization__numbers">01.</span>Исследование и упаковка
                 </h3>
                 <p className="specialization_description description">
                   Lorem Ipsum - это текст-"рыба", часто используемый в печати и
@@ -45,7 +45,7 @@ const Specialization = () => {
               <div className="specialization__column">
                 <img src={specializationImg} alt="" />
                 <h3 className="specialization__subtitle">
-                  <span>01.</span>Исследование и упаковка
+                  <span className="specialization__numbers">01.</span>Исследование и упаковка
                 </h3>
                 <p className="specialization_description description">
                   Lorem Ipsum - это текст-"рыба", часто используемый в печати и
