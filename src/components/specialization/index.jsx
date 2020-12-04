@@ -11,7 +11,7 @@ const Specialization = () => {
               <h2 className="specialization__title title">
                 Наши работы, на которых мы специализируемся
               </h2>
-              <a className="specialization__btn btn">Все услуги</a>
+              <button className="specialization__btn btn">Все услуги</button>
             </div>
             <div className="specialization__row row">
               <div className="specialization__column">
