@@ -7,6 +7,7 @@ import Specialization from './components/specialization';
 import Projects from './components/projects';
 import Video from './components/video';
 import Mailing from './components/mailing';
+import Footer from './components/footer';
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
       <Projects/>
       <Video/>
       <Mailing/>
+      <Footer/>
     </div>
   );
 }
